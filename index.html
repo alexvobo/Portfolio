@@ -76,8 +76,7 @@
         </div>
 
         <!-- Masthead Subheading -->
-        <p class="masthead-subheading font-weight-light mb-0">Python Developer - Web Developer - Photographer -
-            Investor</p>
+        <p class="masthead-subheading font-weight-light mb-0">Python Developer - Web Developer - Photographer</p>
 
     </div>
 
@@ -181,9 +180,44 @@
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
+                    <img class="img-fluid" src="img/portfolio/splines.png" alt="">
                 </div>
             </div>
+            <!--           &lt;!&ndash; Portfolio Item 7 &ndash;&gt;
+                       <div class="col-md-6 col-lg-4">
+                           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
+                               <div class="twinkling portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                   <div class="portfolio-item-caption-content text-center text-white">
+                                       <i class="fas fa-plus fa-3x"></i>
+                                   </div>
+                               </div>
+                               <img style="height:250px;" class="img-fluid" src="img/portfolio/digits.jpg" alt="">
+                           </div>
+                       </div>
+
+                       &lt;!&ndash; Portfolio Item 8 &ndash;&gt;
+                       <div class="col-md-6 col-lg-4">
+                           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
+                               <div class="twinkling portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                   <div class="portfolio-item-caption-content text-center text-white">
+                                       <i class="fas fa-plus fa-3x"></i>
+                                   </div>
+                               </div>
+                               <img style="height:250px;" class="img-fluid" src="img/portfolio/interactions.png" alt="">
+                           </div>
+                       </div>
+
+                       &lt;!&ndash; Portfolio Item 9 &ndash;&gt;
+                       <div class="col-md-6 col-lg-4">
+                           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
+                               <div class="twinkling portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                   <div class="portfolio-item-caption-content text-center text-white">
+                                       <i class="fas fa-plus fa-3x"></i>
+                                   </div>
+                               </div>
+                               <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
+                           </div>
+                       </div>-->
 
         </div>
         <!-- /.row -->
@@ -570,10 +604,11 @@
                             </div>
                             <!-- Portfolio Modal - Image -->
                             <a target="_blank" href="https://github.com/vobos2/AI-Face-Digit-classification"><img
-                                    class="soft img-fluid rounded mb-5" src="img/portfolio/game.png" alt=""></a>
+                                    class="soft img-fluid rounded mb-5" src="img/portfolio/digits.jpg" alt=""></a>
                             <!-- Portfolio Modal - Text -->
                             <h5 class="mb-5">Ever wanted to know whether a picture is of a face or what digit is
-                                displayed in a picture? Well now it's possible!<br> <br> This python app uses Perceptron
+                                displayed in a picture? Well now it's possible!<br> <br> This python script uses
+                                Perceptron
                                 and Naive Bayes
                                 classifiers to learn from a large data set and then guess with high accuracy on images
                                 you provide.</h5>
@@ -616,11 +651,27 @@
                             </div>
                             <!-- Portfolio Modal - Image -->
                             <a target="_blank" href="https://github.com/vobos2/Recursive-DNS-Resolver"><img
-                                    class="soft img-fluid rounded mb-5" src="img/portfolio/safe.png" alt=""></a>
+                                    class="soft img-fluid rounded mb-5" src="img/portfolio/interactions.png" alt=""></a>
                             <!-- Portfolio Modal - Text -->
-                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit
-                                asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            <h5>Challenge-Response Authentication with a Cryptographic Protocol</h5>
+                            <p class="mb-5">Runs an
+                                authentication server (AS) that authenticates exactly one of two top-level domain
+                                servers, TS1 and TS2, for each client query. Only the TLD servers store mappings between
+                                hostnames and IP addresses; the AS does not. The AS runs a challenge-response protocol
+                                with the TS servers, thereby choosing exactly one of TS1 or TS2 for
+                                each client query. Based on this result from the AS, the client must connect directly
+                                with TS1 or TS2, querying the IP address for the desired hostname.
+                                <br><br>
+                                The DNS client program maintains two secret but shared keys, one shared each with TS1
+                                and TS2. For each query, the client uses one of its keys and a challenge string to
+                                create a digest and sends the challenge string as well as the digest to the
+                                authentication server (AS). The AS sends ONLY the challenge string to both the TS
+                                servers. The TS servers each use their corresponding shared key and the challenge string
+                                to obtain a digest, and send their respective digests to AS. Exactly one of these
+                                digests matches the digest sent by the client to the AS. We consider the corresponding
+                                TS authenticated for this query. The AS sends the hostname of the authenticated TS
+                                server to the client. The client then connects to that TS server, sending the queried
+                                Hostname and obtaining an A record (if found) or an error.</p>
                             <button class="btn btn-primary" href="#" data-dismiss="modal">
                                 <i class="fas fa-times fa-fw"></i>
                                 Close Window
@@ -648,7 +699,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <!-- Portfolio Modal - Title -->
-                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Numerical Methods</h2>
                             <!-- Icon Divider -->
                             <div class="divider-custom">
                                 <div class="divider-custom-line"></div>
@@ -658,8 +709,98 @@
                                 <div class="divider-custom-line"></div>
                             </div>
                             <!-- Portfolio Modal - Image -->
-                            <img class="soft img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
+                            <a target="_blank" href="https://github.com/vobos2/NumericalMethods"><img
+                                    class="soft img-fluid rounded mb-5" src="img/portfolio/Nev-Divideddiff-Lagrange.jpg"
+                                    alt=""></a>
                             <!-- Portfolio Modal - Text -->
+                            <h5 class="mb-5">A collection of numerical algorithms used for such applications as
+                                approximating and interpolating polynomials.<br> <br> Written in Matlab and Python</h5>
+                            <button class="btn btn-primary" href="#" data-dismiss="modal">
+                                <i class="fas fa-times fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 7 -->
+<!--<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog"
+     aria-labelledby="portfolioModal7Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+            </button>
+            <div class="modal-body text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            &lt;!&ndash; Portfolio Modal - Title &ndash;&gt;
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">AI Classification</h2>
+                            &lt;!&ndash; Icon Divider &ndash;&gt;
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
+                                <div class="divider-custom-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            &lt;!&ndash; Portfolio Modal - Image &ndash;&gt;
+                            <a target="_blank" href="https://github.com/vobos2/AI-Face-Digit-classification"><img
+                                    class="soft img-fluid rounded mb-5" src="img/portfolio/game.png" alt=""></a>
+                            &lt;!&ndash; Portfolio Modal - Text &ndash;&gt;
+                            <h5 class="mb-5">Ever wanted to know whether a picture is of a face or what digit is
+                                displayed in a picture? Well now it's possible!<br> <br> This python app uses Perceptron
+                                and Naive Bayes
+                                classifiers to learn from a large data set and then guess with high accuracy on images
+                                you provide.</h5>
+                            <button class="btn btn-primary" href="#" data-dismiss="modal">
+                                <i class="fas fa-times fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+
+<!-- Portfolio Modal 8 -->
+<!--<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog"
+     aria-labelledby="portfolioModal8Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+            </button>
+            <div class="modal-body text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            &lt;!&ndash; Portfolio Modal - Title &ndash;&gt;
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Recursive DNS
+                                Resolver</h2>
+                            &lt;!&ndash; Icon Divider &ndash;&gt;
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
+                                <div class="divider-custom-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            &lt;!&ndash; Portfolio Modal - Image &ndash;&gt;
+                            <a target="_blank" href="https://github.com/vobos2/Recursive-DNS-Resolver"><img
+                                    class="soft img-fluid rounded mb-5" src="img/portfolio/safe.png" alt=""></a>
+                            &lt;!&ndash; Portfolio Modal - Text &ndash;&gt;
                             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
                                 assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit
                                 asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
@@ -673,8 +814,49 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
+<!-- Portfolio Modal 9 -->
+<!--<div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog"
+     aria-labelledby="portfolioModal9Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+            </button>
+            <div class="modal-body text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            &lt;!&ndash; Portfolio Modal - Title &ndash;&gt;
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                            &lt;!&ndash; Icon Divider &ndash;&gt;
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
+                                <div class="divider-custom-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            &lt;!&ndash; Portfolio Modal - Image &ndash;&gt;
+                            <img class="soft img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
+                            &lt;!&ndash; Portfolio Modal - Text &ndash;&gt;
+                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit
+                                asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            <button class="btn btn-primary" href="#" data-dismiss="modal">
+                                <i class="fas fa-times fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
