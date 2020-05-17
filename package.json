@@ -32,15 +32,20 @@
         "@fortawesome/fontawesome-free": "5.10.2",
         "bootstrap": "4.3.1",
         "compass": "^0.1.1",
+        "flickr-sdk": "^3.9.0",
+        "gulp-terser": "^1.2.0",
+        "gulp-uglify-es": "^2.0.0",
+        "gulp-uglifyes": "^0.2.1",
         "instafeed.js": "^1.4.1",
         "jquery": "^3.5.1",
         "jquery.easing": "^1.4.1",
         "magnific-popup": "^1.1.0",
-        "popper.js": "^1.16.0"
+        "popper.js": "^1.16.1"
     },
     "devDependencies": {
         "browser-sync": "2.26.7",
         "del": "5.1.0",
+        "flickrapi": "^0.6.2",
         "gulp": "4.0.2",
         "gulp-autoprefixer": "7.0.0",
         "gulp-clean-css": "4.2.0",
