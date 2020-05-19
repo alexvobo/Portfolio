@@ -18,6 +18,12 @@
 
     <!-- Theme CSS -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="css/Icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="css/Icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="css/Icons/favicon-16x16.png">
+    <link rel="manifest" href="css/Icons/site.webmanifest">
 </head>
 
 <body id="page-top">
@@ -34,21 +40,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-                </li>
+
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#resume">Resume</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Flickr">Flickr</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
                 </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#resume">Resume</a>
+                </li>
+      <!--          <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+                </li>-->
 
 
             </ul>
@@ -77,6 +84,15 @@
 
         <!-- Masthead Subheading -->
         <p class="masthead-subheading font-weight-light mb-0">Python Developer - Web Developer - Photographer</p>
+        <p></p>
+        <p class="masthead-subheading font-weight-light mb-0">Moon Landing Solutions LLC</p>
+        <p><br><br></p>
+
+        <a href="mailto:av510@rutgers.edu">
+            <button class="text-primary mx-auto btn-dark btn-dark btn  btn-xl">
+                Contact Me!
+            </button>
+        </a>
 
     </div>
 
@@ -87,17 +103,96 @@
         </figure>
     </div>
 </header>
+<!-- About Section -->
+<section class="  page-section text-white mb-0" id="about">
+    <div class=" container">
+
+        <!-- About Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary">About</h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-dark">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- About Section Content -->
+        <div class="row text-secondary">
+            <div class="col-lg-4 ml-auto">
+                <p class="lead">My name is Alex, and I hold a B.S. in Computer Science from Rutgers University. I enjoy
+                    writing
+                    code to solve real problems and find it satisfying to simplify repetitive tasks. I have
+                    experience launching an online retail business, trading/mining digital assets, and writing plenty of
+                    code. I hope to one day manage a sizeable real estate portfolio.</p>
+            </div>
+            <div class="col-lg-4 mr-auto">
+                <p class="lead">I specialize in and prefer Python, but I try to do it all. In the past I've created
+                    simulations in unity, websites for myself and clients, react-native apps tethered to a database,
+                    python scripts to check over
+                    homework, and more. A future project of mine is a python-powered real time digital currency price
+                    tracker with
+                    built-in notifications.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Flickr -->
+<section class="stars page-section text-black-50 mb-0" id="Flickr">
+    <div class="twinkling container">
+        <div class="container">
+
+            <!-- About Section Heading -->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Flickr Feed</h2>
+
+            <!-- Icon Divider -->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <!--   Flickr  Section Content-->
+            <div id="photoFeed" class="carousel slide" data-ride="carousel">
+
+                <!-- Wrapper for slides -->
+                <div id="feedSrc" class="align-photo carousel-inner">
+                    <!-- <div class="item active">
+                         <img src="la.jpg" alt="Los Angeles">
+                     </div>-->
+                </div>
+
+                <a class="carousel-control-prev" href="#photoFeed" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#photoFeed" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+</section>
 
 <!-- Portfolio Section -->
-<section class="page-section portfolio" id="portfolio">
-    <div class="container">
+<section class=" page-section portfolio" id="portfolio">
+    <div class=" container">
 
         <!-- Portfolio Section Heading -->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"><a
                 href="https://github.com/vobos2" target="_blank">Portfolio</a></h2>
 
         <!-- Icon Divider -->
-        <div class="divider-custom">
+        <div class="divider-custom divider-dark">
             <div class="divider-custom-line"></div>
             <div class="divider-custom-icon">
                 <i class="fas fa-star"></i>
@@ -225,45 +320,16 @@
     </div>
 </section>
 
-<!-- About Section -->
-<section class=" stars page-section text-white mb-0" id="about">
+
+<!-- Resume | Skills -->
+<section class="stars page-section text-black-50 mb-0" id="resume">
     <div class="twinkling container">
 
         <!-- About Section Heading -->
-        <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-white">Resume</h2>
 
         <!-- Icon Divider -->
         <div class="divider-custom divider-light">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon">
-                <i class="fas fa-star"></i>
-            </div>
-            <div class="divider-custom-line"></div>
-        </div>
-
-        <!-- About Section Content -->
-        <div class="row">
-            <div class="col-lg-4 ml-auto">
-                <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes
-                    the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets
-                    for easy customization.</p>
-            </div>
-            <div class="col-lg-4 mr-auto">
-                <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers,
-                    and add your email address to the contact form to make it fully functional!</p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Resume | Skills -->
-<section class="page-section text-black-50 mb-0" id="resume">
-    <div class="container">
-
-        <!-- About Section Heading -->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary">Resume</h2>
-
-        <!-- Icon Divider -->
-        <div class="divider-custom divider-dark">
             <div class="divider-custom-line"></div>
             <div class="divider-custom-icon">
                 <i class="fas fa-star"></i>
@@ -275,53 +341,15 @@
                 height="850"></iframe>
     </div>
 </section>
-<!-- Flickr -->
-<section class="page-section text-black-50 mb-0" id="Flickr">
-    <div class="container">
 
-        <!-- About Section Heading -->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary">Flickr Feed</h2>
-
-        <!-- Icon Divider -->
-        <div class="divider-custom divider-dark">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon">
-                <i class="fas fa-star"></i>
-            </div>
-            <div class="divider-custom-line"></div>
-        </div>
-
-        <!--   Flickr  Section Content-->
-        <div id="photoFeed" class="carousel slide" data-ride="carousel">
-
-            <!-- Wrapper for slides -->
-            <div id="feedSrc" class="align-photo carousel-inner">
-                <!-- <div class="item active">
-                     <img src="la.jpg" alt="Los Angeles">
-                 </div>-->
-            </div>
-
-            <a class="carousel-control-prev" href="#photoFeed" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#photoFeed" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-
-
-    </div>
-</section>
 <!-- Contact Section -->
-<section class="page-section stars" id="contact">
+<!--<section class="page-section stars" id="contact">
     <div class="twinkling container">
 
-        <!-- Contact Section Heading -->
+        &lt;!&ndash; Contact Section Heading &ndash;&gt;
         <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Contact Me</h2>
 
-        <!-- Icon Divider -->
+        &lt;!&ndash; Icon Divider &ndash;&gt;
         <div class="divider-custom divider-light">
             <div class="divider-custom-line"></div>
             <div class="divider-custom-icon">
@@ -330,10 +358,10 @@
             <div class="divider-custom-line"></div>
         </div>
 
-        <!-- Contact Section Form -->
+        &lt;!&ndash; Contact Section Form &ndash;&gt;
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                &lt;!&ndash; To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. &ndash;&gt;
                 <form name="sentMessage" id="contactForm" novalidate="novalidate">
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -382,7 +410,7 @@
         </div>
 
     </div>
-</section>
+</section>-->
 
 <!-- Footer -->
 <footer class="footer text-center">

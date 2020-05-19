@@ -3,7 +3,6 @@ import config from '../config.js';
 const key1 = config.key1;
 const key2 = config.key2;
 const url = "https://www.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=" + key1 + "&user_id=186575794%40N06&format=json&nojsoncallback=1";
-
 fetch(url)
     .then(response => response.json())
     .then(data => {
@@ -37,6 +36,7 @@ function addImg(URL, index) {
     img.className = "flickrFeed img-fluid";
     let imgDiv = document.createElement("div");
     imgDiv.className = "carousel-item";
+
     if (index === 0) {
         imgDiv.className = "carousel-item active";
     }

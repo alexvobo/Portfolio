@@ -48,9 +48,9 @@
 }
 
 html {
-    max-width:100%;
-    max-height:100%;
-    overflow-x:hidden;
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
     font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -10141,10 +10141,14 @@ button.bg-dark:focus {
 
 .text-primary {
     color: #1abc9c !important;
+/*        color: #bc2c8c !important;
+*/
 }
 
 a.text-primary:hover, a.text-primary:focus {
     color: #117964 !important;
+    /*    color: #bc2c8c !important;
+*/
 }
 
 .text-secondary {
@@ -10759,12 +10763,12 @@ https://codepen.io/Chelsea-Dover
     width: 100%;
 }
 
-.align-photo{
+.align-photo {
     text-align: center;
-    max-width:100%;
-    height:auto;
+    max-width: 100%;
+    height: auto;
 }
-.flickrFeed{
 
+.flickrFeed {
 
 }
