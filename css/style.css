@@ -10774,3 +10774,8 @@ https://codepen.io/Chelsea-Dover
 .flickrFeed {
 
 }
+
+section{
+    overflow-x: hidden;
+}
+
