@@ -10776,7 +10776,8 @@ https://codepen.io/Chelsea-Dover
 
 }
 
-section{
-    overflow-x: hidden;
+header{
+    overflow-x:hidden;
+    overflow-y:hidden;
 }
 
