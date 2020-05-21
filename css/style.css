@@ -45,6 +45,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    overflow-x:hidden;
 }
 
 html {
@@ -10776,8 +10777,5 @@ https://codepen.io/Chelsea-Dover
 
 }
 
-header{
-    overflow-x:hidden;
-    overflow-y:hidden;
-}
+
 
