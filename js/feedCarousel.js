@@ -3,6 +3,7 @@ import config from '../config.js';
 const key1 = config.key1;
 const key2 = config.key2;
 const url = "https://www.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=" + key1 + "&user_id=186575794%40N06&format=json&nojsoncallback=1";
+
 fetch(url)
     .then(response => response.json())
     .then(data => {
@@ -15,7 +16,6 @@ fetch(url)
                 photoURLs.push(CurrentPhotoUrl);
                 //console.log(CurrentPhotoUrl);
             }
-
             photoURLs.forEach(addImg);
 
             /*       let img = document.createElement('img');
@@ -29,11 +29,47 @@ fetch(url)
         }
     );
 
+/*
+function findBiggest(URL) {
+    let img = document.createElement('img');
+    img.src = URL;
+
+    var onLoad;
+    img.on('load', onLoad = function () {
+        done(img.width, img.height);
+    });
+
+
+    var isDone = false;
+
+    function done() {
+        if (isDone) {
+            return;
+        }
+        isDone = true;
+
+        clearInterval(wait);
+        img.off('load', onLoad);
+
+        callback.apply(this, arguments);
+    }
+
+    if (img.width > imgDims.width) {
+        imgDims['width'] = img.width;
+        console.log("width: " + img.width)
+    }
+    if (img.height > imgDims.height) {
+        imgDims['height'] = img.height;
+        console.log("height: " + img.height)
+    }
+}
+*/
+
 function addImg(URL, index) {
 
     let img = document.createElement('img');
     img.src = URL;
-    img.className = "flickrFeed img-fluid";
+    img.className = "photo img-fluid";
     let imgDiv = document.createElement("div");
     imgDiv.className = "carousel-item";
 

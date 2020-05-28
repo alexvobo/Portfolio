@@ -32,7 +32,7 @@
 <body id="page-top">
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg bg-secondary text-uppercase" id="mainNav">
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top nav-transparency" id="mainNav">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Alexsandr Vobornov</a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
@@ -48,13 +48,13 @@
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Flickr">Flickr</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#resume">Resume</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#resume">Resume</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Flickr">Flickr</a>
                 </li>
                 <!--          <li class="nav-item mx-0 mx-lg-1">
                               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
@@ -99,7 +99,7 @@
 
     </div>
 
-    <!-- Rocket * CREDIT TO CHELSEA DOVER: https://codepen.io/Chelsea-Dover * -->
+    <!-- Rocket IMAGE * CREDIT TO CHELSEA DOVER: https://codepen.io/Chelsea-Dover * -->
     <div>
         <figure class="rocket">
             <img src="img/portfolio/rocket.png">
@@ -124,14 +124,14 @@
 
         <!-- About Section Content -->
         <div class="row text-secondary">
-            <div class="col-lg-4 ml-auto">
+            <div class="col-lg-4 mr-auto ml-auto">
                 <p class="lead">My name is Alex, and I hold a B.S. in Computer Science from Rutgers University. I enjoy
                     writing
                     code to solve real problems and find it satisfying to simplify repetitive tasks. I have
                     experience launching an online retail business, trading/mining digital assets, and writing plenty of
                     code. I hope to one day manage a sizeable real estate portfolio.</p>
             </div>
-            <div class="col-lg-4 mr-auto">
+            <div class="col-lg-4 ml-auto mr-auto">
                 <p class="lead">I specialize in and prefer Python, but I try to do it all. In the past I've created
                     simulations in unity, websites for myself and clients, react-native apps tethered to a database,
                     python scripts to check over
@@ -144,47 +144,27 @@
     </div>
 </section>
 
-<!-- Flickr -->
-<section class="stars page-section text-black-50 mb-0" id="Flickr">
+<!-- Resume | Skills -->
+<section class="stars page-section text-black-50 mb-0" id="resume">
     <div class="twinkling container">
-        <div class="container embed-responsive">
 
-            <!-- About Section Heading -->
-            <h2 class="page-section-heading text-center text-uppercase text-white">Flickr Feed</h2>
+        <!-- About Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-white">Resume</h2>
 
-            <!-- Icon Divider -->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="divider-custom-line"></div>
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
             </div>
-
-            <!--   Flickr  Section Content-->
-            <div id="photoFeed" class="carousel slide" data-ride="carousel">
-
-                <!-- Wrapper for slides -->
-                <div id="feedSrc" class="align-photo carousel-inner">
-                    <!-- <div class="item active">
-                         <img src="la.jpg" alt="Los Angeles">
-                     </div>-->
-                </div>
-
-                <a class="carousel-control-prev" href="#photoFeed" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#photoFeed" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-
-
+            <div class="divider-custom-line"></div>
         </div>
+
+        <iframe class="mx-auto d-block embed-responsive" src="pdf/AlexsandrVobornov General.pdf#zoom=75" width="700"
+                height="850"></iframe>
     </div>
 </section>
+
 
 <!-- Portfolio Section -->
 <section class=" page-section portfolio" id="portfolio">
@@ -323,14 +303,11 @@
     </div>
 </section>
 
-
-<!-- Resume | Skills -->
-<section class="stars page-section text-black-50 mb-0" id="resume">
+<!-- Flickr -->
+<section class="stars page-section text-black-50 mb-0 flickrFeed" id="Flickr">
     <div class="twinkling container">
-
         <!-- About Section Heading -->
-        <h2 class="page-section-heading text-center text-uppercase text-white">Resume</h2>
-
+        <h2 class="page-section-heading text-center text-uppercase text-white">Flickr Feed</h2>
         <!-- Icon Divider -->
         <div class="divider-custom divider-light">
             <div class="divider-custom-line"></div>
@@ -340,8 +317,29 @@
             <div class="divider-custom-line"></div>
         </div>
 
-        <iframe class="mx-auto d-block embed-responsive" src="pdf/AlexsandrVobornov General.pdf#zoom=75" width="700"
-                height="850"></iframe>
+        <div class="container">
+            <!--   Flickr  Section Content-->
+            <div id="photoFeed" class="carousel slide" data-ride="carousel">
+
+                <!-- Wrapper for slides -->
+                <div id="feedSrc" class="align-photo carousel-inner">
+                    <!-- <div class="item active">
+                         <img src="la.jpg" alt="Los Angeles">
+                     </div>-->
+                </div>
+
+                <a class="carousel-control-prev" href="#photoFeed" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#photoFeed" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+        </div>
     </div>
 </section>
 
