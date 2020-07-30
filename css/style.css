@@ -10789,6 +10789,15 @@ https://codepen.io/Chelsea-Dover
 button::-moz-focus-inner {
     border: 0;
 }
-
+.portfoliotitle{
+    padding:3% 3% 0 3%;
+}
+.portfoliotext{
+    font-size:1.2em;
+    padding:0 5% 5% 5%;
+}
+.removeBorder{
+    border:None !important;
+}
 
 
